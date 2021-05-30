@@ -54,7 +54,8 @@ section .title h1 span {
   color: rgb(80, 227, 194);
 }
 
-section .search-container, .active-search {
+section .search-container,
+.active-search {
   width: 100%;
   display: flex;
   align-items: center;
@@ -74,7 +75,8 @@ section .search-container, .active-search {
   flex-direction: column;
 }
 
-.search-pictures {
+.search-pictures,
+.favorite-pictures {
   width: 100%;
   display: flex;
   align-items: center;
@@ -83,7 +85,8 @@ section .search-container, .active-search {
   flex-direction: column;
 }
 
-#btn-searc {
+#btn-search,
+#btn-favo {
   width: 127px;
   height: 50px;
   border: 1px solid #572ee5;
@@ -96,10 +99,40 @@ section .search-container, .active-search {
 
 /* Acá termina desplegable Search */
 
-/* Llamar para búsqueda activa: */
+/* Llamar para favoritos: */
 
+/* .favorite-container-all {
+  padding: 0;
+  overflow: hidden;
+  margin: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 1 calc(50% - 1em);
+} */
 
-/* Acá termina búsqueda activa */
+.favo-cont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-bottom: 46px;
+}
+
+.favorite-pictures {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 1 calc(50% - 1em);
+}
+
+.favorite-container {
+   column-count: 2
+}
+
+/* Acá termina favoritos */
 
 .trending-container {
   width: 100%;
@@ -122,10 +155,30 @@ section .search-container, .active-search {
   text-align: center;
 }
 
-footer {
-  width: 100%;
-  height: 196px;
-  text-align: center;
-  padding-top: 45px;
-  padding-bottom: 27px;
+/* Dese acá footer */
+
+.footer-container {
+    width: 100%;
+    height: 196px;
+    text-align: center;
+    padding: 45px 0 27px 0;
+}
+    
+.footer-container footer {
+    margin: auto;
+}
+    
+.footer-container footer .social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 47.8px;
+}
+
+.footer-container footer .social-container .icon-redes-footer {
+    margin: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
