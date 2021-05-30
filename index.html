@@ -3,65 +3,155 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>Sprint 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- aca linkeo a font-awesome -->
     <script
       src="https://kit.fontawesome.com/9c540da863.js"
       crossorigin="anonymous"
     ></script>
     <!-- linkeo a mis hojas de Css -->
-    <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/desktop.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/desktop.css" />
+    <title>Sprint 2</title>
+    
   </head>
   <body>
     <header>
+      <div class="border"></div>
+
+      <div class="head-container">
+
+      <div class="logo-desk-cont">
+        <img class="logo" src="./assets/logo-desktop.svg" alt="Logo Desk" />
+      </div>
       <nav>
-        <img class="logo" src="./assets/logo-desktop.svg" alt="Logo" />
-        <ul>
-          <li><a href="#">MODO NOCTURNO</a></li>
-          <li><a href="#">FAVORITOS</a></li>
-          <li><a href="#">MIS GIFOS</a></li>
-          <li><img src="./assets/button-crear-gifo.svg" alt="logo plus" /></li>
-        </ul>
+        <div class="nav-desk-container" id="nav-desk-container">
+          
+          
+            <div class="menu-desktop">
+
+               <ul>
+                <li><a href="#">MODO NOCTURNO</a></li>
+                <li><a href="#">FAVORITOS</a></li>
+                <li><a href="#">MIS GIFOS</a></li>
+                <li>
+                <img src="./assets/button-crear-gifo.svg" alt="logo plus" />
+                </li>
+               </ul>
+
+            </div>
+
+          <div class="nav-mobile-container" id="nav-desk-container">
+
+            
+            <div class="menu-bars-mobile">
+              <div class="logo-mob-cont">
+              <img class="logo-mobile" src="./assets/logo-mobile.svg" alt="Logo Mobile" />
+            </div>
+            <div class="logo-mob-noct-cont">
+              <img class="logo-mobile-noct" src="./assets/Logo-modo-noc.svg" alt="Logo-noct" />
+            </div>
+            </div>
+            
+            <div class="menu-mobile">
+              <img class="burger-svg" src="./assets/burger.svg" alt="Burguer" />
+            </div>
+          </div>
+           
       </nav>
-    </header>
-    <main role="main">
-      <section>
+    </div>
+    <!-- here ends navbar -->
+
+       <section>
+         <div class="title">
         <h1>Inspírate, busca, guarda, y crea los mejores <span>GIFOS</span></h1>
+      </div>
       </section>
-      <section>
-        <div>
-          <img src="./assets/ilustra_header.svg" alt="" />
+
+       <section>
+         <div class="search-container">
+          <div class="people">
+           <img src="./assets/ilustra_header.svg" alt="Personas" />
+          </div>
+         <div class=search>
+           <input type="search" placeholder="Busca GIFOS y más" />
+           <img src="./assets/icon-search.svg" alt="Lupa">
+          </div>
         </div>
-        <div>
-          <input type="search" placeholder="Busca GIFOS y más" />
+
+        <div class="searcher-container">
+          <hr>
         </div>
       </section>
+
+    </header>
+    <!-- here ends header -->
+    <!-- <main role="main"> -->
       <section>
-        <h2>Trending:</h2>
-        <p>Reactions, Entertainment, Sports, Stickers, Artists</p>
+        <div class="trending-container">
+          <div class="tren-h2-container">
+          <h2>Trending:</h2>
+        </div>
+          <div class="reactions-container">
+          <p>Reactions, Entertainment, Sports, Stickers, Artists</p>
+        </div>
+
+<!-- Desde aca ira comentado todo el desplegable del buscador -->
+
+
+
+       </div>
       </section>
+
       <section>
+        <div class="gifos-container">
         <h2>Trending GIFOS</h2>
+        <div class="gifos-cont-p">
         <p>Mira los últimos GIFOS de nuestra comunidad.</p>
+      </div>
+      
+      <div class="carrousel-container">
+
+<div class="arrow1"></div>
+
+       <div class="img-gifos">
+        <img src="./assets/img/332275f6-5d68-11e7-a537-0050568626ea-300x200.png" alt="Cat1" class="img1"/>
+        <img src="./assets/img/bigstock-Adorable-Cat-And-Dog-Resting-T-242152210-300x200.jpeg" alt="Cat2" class="img2"/>
+        <img src="./assets/img/cat-facts-cover-300x200.jpeg" alt="Cat3" class="img3"/>
+      </div>
+
+      <div class="arrow2"></div>
+
+    </div>
+      
+      </div>
       </section>
-      <section>
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-      </section>
-    </main>
+
+    <!-- </main> -->
+    
+    
     <footer>
-      <h3>Compartir en:</h3>
-      <ul>
-        <li><a href="https://es-la.facebook.com/" target="_blank"><img src="./assets/icon_facebook.svg" alt="icono facebook"></a></li>
-        <li><a href="https://twitter.com/?lang=es" target="_blank"><img src="./assets/icon-twitter.svg" alt="icono twitter"> </a></li>
-        <li>
-          <a href="https://www.instagram.com/?hl=es-la" target="_blank"><img src="./assets/icon_instagram.svg" alt="icono instagram"></a>
-        </li>
-      </ul>
+
+      <p>Compartir en:</p>
+
+      <div class="social-container">
+      
+          <a href="https://es-la.facebook.com/" target="_blank"
+            ><img src="./assets/icon_facebook.svg" alt="icono facebook"
+          /></a>
+        
+          <a href="https://twitter.com/?lang=es" target="_blank"
+            ><img src="./assets/icon-twitter.svg" alt="icono twitter" />
+          </a>
+        
+          <a href="https://www.instagram.com/?hl=es-la" target="_blank"
+            ><img src="./assets/icon_instagram.svg" alt="icono instagram"
+          /></a>
+       
+    </div>
       <p>© GIFOS 2020 All Rights Reserved.</p>
     </footer>
+    <div class="border"></div>
   </body>
 </html>
