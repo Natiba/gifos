@@ -1,20 +1,22 @@
 @media screen and (min-width: 375px) and (max-width: 768px) {
-.menu-desktop, .logo-desk-cont, .logo-mobile-noct {
+  .menu-desktop,
+  .logo-desk-cont,
+  .logo-mobile-noct {
     display: none;
-}
+  }
 
-.nav-mobile-container {
+  .nav-mobile-container {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     align-content: center;
     /* no funciona, no las separa */
-    
-    background-color: greenyellow;
-}
 
-section .title {
+    background-color: greenyellow;
+  }
+
+  section .title {
     display: flex;
     font-size: 1.563em;
     text-align: center;
@@ -22,136 +24,184 @@ section .title {
     line-height: 33px;
     height: 99px;
     margin-bottom: 31px;
-}
-    
-.people img {
+  }
+
+  .people img {
     width: 217px;
     display: block;
     text-align: center;
-}
+  }
 
-/* All search section */
+  /* All search section */
 
-.search {
+  .search {
     width: 334px;
     height: 50px;
-    background: #FFFFFF;
-    border: 1px solid #572EE5;
+    background: #ffffff;
+    border: 1px solid #572ee5;
     border-radius: 27px;
     border-radius: 27px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 31px;
-}
+  }
 
-.search input {
+  .search input {
     border: none;
     font-family: Roboto-Regular;
     font-size: 16px;
     color: #000000;
     text-align: left;
-}
+  }
 
-.search img {
-    color: #572EE5;
-}
+  .search img {
+    color: #572ee5;
+  }
 
+  /* Llamar para desplegable: */
 
+  .searcher-container hr {
+    width: 157px;
+    opacity: 0.5;
+    border: 1px solid #9cafc3;
+  }
 
-.trending-container h2 {
+  .search-title {
+    width: 100%;
+    height: 40px;
+  }
+
+  .search-title h2 {
     font-family: Montserrat-Bold;
-font-size: 16px;
-color: #572EE5;
-text-align: center;
-line-height: 25px;
-}
+    font-size: 25px;
+    color: #572ee5;
+    text-align: center;
+    line-height: 40px;
+  }
 
-.tren-h2-container {
+  .search-pictures img {
+    width: 156px;
+    height: 120px;
+    padding: 12.5px, 13px, 12.5, 26px;
+  }
+
+  .img1 {
+    width: 156px;
+    padding: 12.5px, 13px, 12.5, 20px;
+  }
+
+  #search-btn {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 13px;
+    color: #572ee5;
+    letter-spacing: 0;
+    text-align: center;
+    border: none;
+    background: rgba(255, 255, 255, 0.5)
+  }
+
+  .img2 {
+    width: 156px;
+    padding: 12.5px, 20px, 12.5, 13px;
+  }
+
+  /* All trending section */
+
+  .trending-container h2 {
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    color: #572ee5;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .tren-h2-container {
     width: 100%;
     height: 30px;
     margin-bottom: 7px;
-}
+  }
 
-.reactions-container {
+  .reactions-container {
     width: 185px;
     height: 50px;
     margin-bottom: 45px;
-}
+  }
 
-.trending-container p {
-    font-family: Montserrat;font-weight: medium;
-    font-size:  14px;
-    color: #572EE5;
+  .trending-container p {
+    font-family: Montserrat;
+    font-weight: medium;
+    font-size: 14px;
+    color: #572ee5;
     text-align: center;
     line-height: 25px;
-}
+  }
 
-.gifos-container h2 {
+  .gifos-container h2 {
     padding-top: 46px;
     padding-bottom: 7px;
     font-family: Montserrat-Bold;
     font-size: 20px;
-    color: #572EE5;
+    color: #572ee5;
     text-align: center;
     line-height: 30px;
-}
+  }
 
-.gifos-cont-p {
+  .gifos-cont-p {
     width: 333px;
     height: 46px;
     margin-bottom: 32px;
-}
+  }
 
-.gifos-container p {
+  .gifos-container p {
     font-family: Roboto;
     font-weight: Regular;
     font-size: 16px;
     color: #000000;
     line-height: 23px;
-}
+  }
 
-.img-gifos {
+  .img-gifos {
     display: flex;
     row-gap: 22px;
-}
+  }
 
-.img-gifos .img1 {
+  .img-gifos .img1 {
     width: 243px;
     height: 187px;
     margin-right: 22px;
-}
+  }
 
-.img-gifos .img2 {
+  .img-gifos .img2 {
     width: 88px;
     height: 187px;
     /* margin-left: 22px; */
-}
+  }
 
-.img3 {
+  .img3 {
     display: none;
-}
+  }
 
-footer p {
+  footer p {
     font-family: Roboto;
     font-weight: regular;
     font-size: 15px;
     color: #000000;
     letter-spacing: 0;
-}
- 
-footer .social-container {
+  }
+
+  footer .social-container {
     font-size: 18px;
     width: 20%;
     display: flex;
     align-content: center;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     margin-right: 40px;
-} 
+  }
 
-footer .social-container a {
+  footer .social-container a {
     font-size: 18px;
-}
-
+  }
 }
