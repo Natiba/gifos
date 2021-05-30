@@ -54,7 +54,7 @@ section .title h1 span {
   color: rgb(80, 227, 194);
 }
 
-section .search-container {
+section .search-container, .active-search {
   width: 100%;
   display: flex;
   align-items: center;
@@ -95,6 +95,11 @@ section .search-container {
 }
 
 /* Acá termina desplegable Search */
+
+/* Llamar para búsqueda activa: */
+
+
+/* Acá termina búsqueda activa */
 
 .trending-container {
   width: 100%;
